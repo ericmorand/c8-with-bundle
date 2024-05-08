@@ -1,0 +1,37 @@
+{
+  "lines": 100,
+  "branches": 100,
+  "functions": 100,
+  "watermarks": {
+    "lines": [
+      100,
+      100
+    ],
+    "functions": [
+      100,
+      100
+    ],
+    "branches": [
+      100,
+      100
+    ],
+    "statements": [
+      100,
+      100
+    ]
+  },
+  "reporter": [
+    "text",
+    "html"
+  ],
+  "include": [
+    "src/main/**",
+    "dist/**"
+  ],
+  "src": [
+    "src/main"
+  ],
+  "exclude": [],
+  "excludeAfterRemap": true,
+  "all": true
+}

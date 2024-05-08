@@ -1,0 +1,28 @@
+{
+  "name": "c8-with-bundle",
+  "scripts": {
+    "build": "npm run build:main",
+    "build:main": "node build.mjs src/main/index.ts dist --treeshake",
+    "build:test": "node build.mjs src/test/index.ts dist --source-map",
+    "test": "node dist/index.mjs",
+    "check-coverage": "c8 --experimental-monocart npm t"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/node": "^16.18.97",
+    "@types/tape": "^5.6.4",
+    "@vitrail/rollup-plugin-typescript": "^1.0.0",
+    "c8": "github:bcoe/c8#pull/521/head",
+    "commander": "^12.0.0",
+    "fs-extra": "^11.2.0",
+    "i": "^0.3.7",
+    "npm": "^10.7.0",
+    "rollup": "^4.17.2",
+    "rollup-plugin-generate-package-json": "^3.2.0",
+    "source-map": "^0.7.4",
+    "tape": "^5.7.5",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "module": "ES2015",
+    "moduleResolution": "Bundler"
+  }
+}
