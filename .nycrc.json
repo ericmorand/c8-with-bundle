@@ -24,14 +24,9 @@
     "text",
     "html"
   ],
-  "include": [
-    "src/main/**",
-    "dist/**"
-  ],
   "src": [
-    "src/main"
+    "src/main/**/*.ts"
   ],
-  "exclude": [],
   "excludeAfterRemap": true,
   "all": true
 }

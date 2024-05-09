@@ -4,5 +4,10 @@
     "noUnusedLocals": false,
     "esModuleInterop": true,
     "declaration": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "Node16"
+    }
   }
 }

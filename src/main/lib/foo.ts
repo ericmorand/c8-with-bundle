@@ -5,3 +5,5 @@ export const foo = () => {
 export const uncovered = () => {
   return 'uncovered';
 };
+
+console.log(5);

@@ -13,5 +13,11 @@ npm run build:test
 ### Check the coverage using C8
 
 ```shell
-npm run check-coverage
+npm run c8
+```
+
+### Check the coverage using Monocart Coverage Reports
+
+```shell
+npm run mcr
 ```
