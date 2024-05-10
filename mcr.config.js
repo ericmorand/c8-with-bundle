@@ -1,6 +1,7 @@
+const {resolve} = require('path');
+
 // mcr.config.js
 module.exports = {
-    logging: "debug",
     name: 'My Coverage Report',
     reports: [
         'v8',
@@ -13,5 +14,6 @@ module.exports = {
     },
     sourceFilter: {
         "**/src/main/**/*.ts": true
-    }
+    },
+    basePath: resolve(__dirname)
 };

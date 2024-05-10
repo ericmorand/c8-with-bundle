@@ -21,3 +21,10 @@ npm run c8
 ```shell
 npm run mcr
 ```
+
+### Check the coverage from a sub-directory
+
+```shell
+cd src/test
+npx mcr ts-node index.ts
+```
